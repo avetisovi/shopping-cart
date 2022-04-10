@@ -1,2 +1,20 @@
 @import '~normalize.css';
 @import 'variables.scss';
+@import 'sections/navigation.scss';
+@import 'sections/cart.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}

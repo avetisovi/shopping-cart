@@ -1,0 +1,22 @@
+.navigation {
+  background-color: #313132;
+  color: $regularGray;
+  &__inner {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding: 10px;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+    font-size: $regularFontSize;
+  }
+  img {
+    width: 30px;
+    height: auto;
+  }
+  &__logo {
+    margin-right: auto;
+  }
+}
