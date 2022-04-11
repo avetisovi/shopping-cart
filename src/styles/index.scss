@@ -1,5 +1,8 @@
 @import '~normalize.css';
 @import 'variables.scss';
+
+@import 'pages/homepage.scss';
+
 @import 'sections/navigation.scss';
 @import 'sections/cart.scss';
 
@@ -14,7 +17,10 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1230px;
   padding: 0 15px;
   margin: 0 auto;
+  &.small {
+    max-width: 930px;
+  }
 }

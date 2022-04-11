@@ -1,0 +1,106 @@
+.buy__btn {
+  text-decoration: none;
+  color: $regularLinkColor;
+  display: inline-block;
+  margin: 0 0 20px 150px;
+  font-weight: 300;
+  font-size: 1rem;
+  &:hover &-text {
+    text-decoration: underline;
+  }
+  &.big {
+    font-size: 1.3em;
+    font-weight: 400;
+    margin: 0 0 20px 150px;
+  }
+}
+
+// intro section
+
+.intro {
+  padding: 40px 0;
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__item {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  &__item-title {
+    margin: 0 0 10px;
+    font-size: 3.5rem;
+    font-weight: 500;
+  }
+  &__item-subtitle {
+    margin: 0;
+    font-size: 1.9rem;
+    margin-bottom: 10px;
+  }
+  &__item-suptitle {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  img {
+    width: 900px;
+    display: block;
+  }
+}
+
+// ipad section
+
+.ipad {
+  background-color: #000;
+  color: #fff;
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+  &__title {
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  &__title-icon {
+    height: 2.5rem;
+  }
+  &__subtitle {
+    margin: 0;
+    font-size: 1.9rem;
+    margin-bottom: 10px;
+    white-space: nowrap;
+  }
+}
+
+// catalog
+
+.homepage__catalog {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  &-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+  }
+  &-item-title {
+    font-weight: 700;
+    margin: 0;
+    font-size: 2rem;
+  }
+  &-item-subtitle {
+    margin: 0 0 10px;
+    font-size: 1.3rem;
+  }
+  &-item-img {
+    max-width: 700px;
+    display: block;
+  }
+}
