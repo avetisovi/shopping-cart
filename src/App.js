@@ -1,12 +1,16 @@
 import './styles/index.scss'
+import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Shop from './pages/Shop';
 import Navbar from './components/UI/Navbar';
+import { ProductsContext } from './context'
+import Products from './Products';
 
 function App() {
+  const [products, setProducts] = useState(Products)
   return (
-    <div className="App">
+    <ProductsContext.Provider value = {{products, setProducts}}>
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -14,7 +18,7 @@ function App() {
           <Route path='/shop' element={<Shop/>}/>
         </Routes>
       </BrowserRouter>
-    </div>
+    </ProductsContext.Provider>
   );
 }
 

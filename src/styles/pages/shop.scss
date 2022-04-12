@@ -1,0 +1,33 @@
+.shop {
+  background-color: $regularGray;
+  padding: 60px 30px;
+  min-height: 100vh;
+  &__categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+  }
+  &__category {
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover {
+      background-color: darken($regularGray, 10%);
+    }
+    &.active {
+      background-color: darken($regularGray, 10%);
+    }
+  }
+  &__category-img {
+    max-height: 78px;
+    margin-bottom: 10px;
+  }
+  &__category-title {
+    margin: 0;
+    font-weight: 400;
+    font-size: .9rem;
+  }
+}

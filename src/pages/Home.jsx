@@ -9,8 +9,8 @@ import iphonese from '../images/iphonese.webp'
 import air from '../images/air.png'
 import ipad from '../images/ipad.jpg'
 import watch from '../images/watch.jpg';
-import display from '../images/display.jpg';
-import studio from '../images/studio.jpg';
+import display from '../images/products/studioDisplay/1.png';
+import studio from '../images/products/macStudio/1.png';
 import airpods from '../images/airpods.webp';
 
 const Home = () => {
