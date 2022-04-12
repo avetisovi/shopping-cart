@@ -1,21 +1,16 @@
-import React from 'react'
-import uniqid from 'uniqid'
-import BuyBtn from './UI/BuyBtn'
+import React, {useState} from 'react'
+import ShopProductsItem from './ShopProductsItem'
+import ProductModal from '../components/UI/ProductModal'
 
 const ShopProducts = ({filteredProducts}) => {
-  console.log(filteredProducts)
+  const [activeProduct, setActiveProduct] = useState({});
+  const [modal, setModal] = useState(false)
   return (
     <div className='shop__products'>
       {filteredProducts.map(product => (
-        <div key={uniqid()} className="shop__product">
-          <h3 className="shop__product-title">{product.title}</h3>
-          <img className='shop__product-img' src={product.mainImg} alt={product.title} />
-          <div className="shop__product-footer">
-            <span className="shop__product-price">${product.price}</span>
-            <BuyBtn />
-          </div>
-        </div>
+        <ShopProductsItem key={product.id} {...{setActiveProduct, setModal, product}}/>
       ))}
+      <ProductModal  product={activeProduct} {...{modal, setModal}}/>
     </div>
   )
 }

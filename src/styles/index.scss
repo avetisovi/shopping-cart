@@ -6,6 +6,7 @@
 
 @import 'sections/navigation.scss';
 @import 'sections/cart.scss';
+@import 'sections/productModal.scss';
 
 * {
   box-sizing: border-box;
@@ -39,3 +40,4 @@ body {
     background-color: darken($regularLinkColor, 5%);
   }
 }
+

@@ -1,0 +1,127 @@
+.product__modal {
+  overflow: auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+  z-index: 1;
+  background-color: rgba(#000, 0.8);
+  &.active {
+    display: block;
+  }
+  &-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  &-slider {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    width: 500px;
+  }
+  &-slider-container {
+    overflow: hidden;
+    width: 364px;
+  }
+  &-slider-images {
+    display: flex;
+    position: relative;
+    transition: left .5s ease-in-out;
+  }
+  &-slider-img {
+    height: 333px;
+    width: auto;
+  }
+  &-slider-arrow {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    fill: lighten(gray, 10%);
+    cursor: pointer;
+    transition: fill 0.2s ease-in-out;
+    &.left {
+      transform: translateY(-50%) rotate(180deg);
+      left: 0;
+    }
+    &.right {
+      transform: translateY(-50%);
+      right: 0;
+    }
+    &:hover {
+      fill: gray;
+    }
+  }
+  &-slider-dots {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+  }
+  &-slider-dot {
+    padding: 3px;
+    button {
+      padding: 3px;
+      cursor: pointer;
+      display: block;
+      border: 0;
+      border-radius: 50%;
+      width: 12px;
+      height: 12px;
+      background-color: lighten(gray, 20%);
+      transition: background-color 0.2s ease-in-out;
+      &:hover {
+        background-color: gray;
+      }
+    }
+    &.active button {
+      background-color: gray;
+    }
+  }
+  &-container {
+    position: relative;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  &-title {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  &-subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  &-price {
+    color: gray;
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  &-advantages {
+    list-style: none;
+    min-width: 450px;
+  }
+  &-advantage {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+    &:last-child {
+      border: 0;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+}

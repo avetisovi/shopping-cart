@@ -37,7 +37,7 @@
     display: grid;
     justify-content: center;
     gap: 20px;
-    grid-template: 500px / 400px 400px;
+    grid-template: 500px / 400px 400px 400px;
   }
   &__product {
     display: flex;

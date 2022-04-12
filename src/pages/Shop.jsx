@@ -20,6 +20,7 @@ const Shop = () => {
     <div className="shop">
       <ShopCategories setProdctsFilterMethod={setProdctsFilterMethod}/>
       <ShopProducts filteredProducts={filteredProducts}/>
+      
     </div>
   )
 }
