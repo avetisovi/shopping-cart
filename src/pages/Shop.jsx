@@ -1,5 +1,4 @@
 import React, { useState, useContext, useEffect } from 'react'
-import uniqid from 'uniqid'
 import { ProductsContext } from '../context'
 import ShopCategories from '../components/ShopCategories'
 import ShopProducts from '../components/ShopProducts'

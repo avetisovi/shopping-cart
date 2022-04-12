@@ -2,7 +2,7 @@ import React from 'react'
 import uniqid from 'uniqid'
 
 import HompageCatalogItem from '../components/UI/HompageCatalogItem'
-import BuyBtn from '../components/UI/BuyBtn'
+import BuyLink from '../components/UI/BuyLink'
 
 import iphone13 from '../images/iphone13.jpg'
 import iphonese from '../images/iphonese.webp'
@@ -29,14 +29,14 @@ const Home = () => {
             <div className="intro__item">
               <h2 className="intro__item-title">iPhone 13 Pro</h2>
               <p className="intro__item-subtitle">Oh. So. Pro</p>
-              <BuyBtn big={true} />
+              <BuyLink big={true} />
               <img src={iphone13} alt="iPhone 13" className="intro__item-img" />
             </div>
             <div className="intro__item">
               <p className="intro__item-suptitle">The new</p>
               <h2 className="intro__item-title">iPhone SE</h2>
               <p className="intro__item-subtitle">Love is power. Love the price</p>
-              <BuyBtn big={true} />
+              <BuyLink big={true} />
               <img src={iphonese} alt="iPhone SE" className="intro__item-img" />
             </div>
           </div>
@@ -52,7 +52,7 @@ const Home = () => {
                 <img className='ipad__title-icon' src={air} alt="air" />
               </h2>
               <p className="ipad__subtitle">Light. Bright. Full of might.</p>
-              <BuyBtn big={true} />
+              <BuyLink big={true} />
             </div>
             <img src={ipad} alt="iPad air" />
           </div>
