@@ -7,6 +7,7 @@ import Navbar from './components/UI/Navbar';
 import { ProductsContext, CartContext } from './context'
 import Products from './Products';
 import Cart from './components/Cart/Cart';
+import Error from './pages/Error';
 
 function App() {
   const [products, setProducts] = useState(Products)
@@ -52,6 +53,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/shop' element={<Shop />} />
+            <Route path='/*' element={<Error />} />
           </Routes>
         </BrowserRouter>
       </CartContext.Provider>
