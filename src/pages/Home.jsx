@@ -8,10 +8,10 @@ import iphone13 from '../images/iphone13.jpg'
 import iphonese from '../images/iphonese.webp'
 import air from '../images/air.png'
 import ipad from '../images/ipad.jpg'
-import watch from '../images/watch.jpg';
+import watch from '../images/products/aw7/1.png';
 import display from '../images/products/studioDisplay/1.png';
 import studio from '../images/products/macStudio/1.png';
-import airpods from '../images/airpods.webp';
+import airpods from '../images/products/airpods3/1.jpg';
 
 const Home = () => {
   const catalogItems = [

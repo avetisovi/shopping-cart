@@ -11,7 +11,13 @@ const Shop = () => {
   
   useEffect(() => {
     if (prodctsFilterMethod === 'all') {
-      setFilteredProducts(Object.values(structuredClone(products)).flat(1))
+      const filtered = Object.values(structuredClone(products)).flat(1)
+      const withoutDuplicates = [];
+      for (let prod of filtered) {
+        if (withoutDuplicates.find(p => p.id === prod.id)) continue
+        withoutDuplicates.push(prod)
+      }
+      setFilteredProducts(withoutDuplicates)
     } else {
       setFilteredProducts(structuredClone(products)[prodctsFilterMethod])
     }

@@ -40,8 +40,7 @@
     grid-template: 500px / 400px 400px 400px;
   }
   &__product {
-    display: flex;
-    flex-direction: column;
+    text-align: center;
     background-color: #fff;
     padding: 50px 0 20px;
     border-radius: 20px;
@@ -57,6 +56,10 @@
     margin: 0 0 30px 30px;
     font-size: 1.75rem;
     font-weight: 500;
+  }
+  &__product-img {
+    max-height: 300px;
+    width: auto;
   }
   &__product-footer {
     padding: 0 30px;

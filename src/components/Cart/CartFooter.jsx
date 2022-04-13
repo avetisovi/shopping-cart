@@ -15,7 +15,7 @@ const CartFooter = () => {
   return (
     <div className='cart__footer'>
       <p className="cart__total">total: ${totalSum}</p>
-      <button className="cart__checkout">Checkout</button>
+      <button className="cart__checkout" onClick={() => alert('Cannot checkout yet')}>Checkout</button>
     </div>
   )
 }

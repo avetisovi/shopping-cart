@@ -59,6 +59,87 @@ import iphone13pro4 from '../images/products/iphone13pro/4.png'
 import iphone13pro5 from '../images/products/iphone13pro/5.png'
 import iphone13pro6 from '../images/products/iphone13pro/6.png'
 
+import iphone13Main from '../images/products/iphone13/main.jpg'
+import iphone13_1 from '../images/products/iphone13/1.png'
+import iphone13_2 from '../images/products/iphone13/2.png'
+import iphone13_3 from '../images/products/iphone13/3.png'
+import iphone13_4 from '../images/products/iphone13/4.png'
+import iphone13_5 from '../images/products/iphone13/5.png'
+import iphone13_6 from '../images/products/iphone13/6.png'
+
+import iphoneseMain from '../images/products/iphonese/main.jpg'
+import iphonese1 from '../images/products/iphonese/1.png'
+import iphonese2 from '../images/products/iphonese/2.png'
+import iphonese3 from '../images/products/iphonese/3.png'
+import iphonese4 from '../images/products/iphonese/4.png'
+import iphonese5 from '../images/products/iphonese/5.png'
+
+import iphone12Main from '../images/products/iphone12/main.jpg'
+import iphone12_1 from '../images/products/iphone12/1.png'
+import iphone12_2 from '../images/products/iphone12/2.png'
+import iphone12_3 from '../images/products/iphone12/3.png'
+import iphone12_4 from '../images/products/iphone12/4.png'
+import iphone12_5 from '../images/products/iphone12/5.png'
+import iphone12_6 from '../images/products/iphone12/6.png'
+
+import ipadProMain from '../images/products/ipadPro/main.jpg'
+import ipadPro1 from '../images/products/ipadPro/1.png'
+import ipadPro2 from '../images/products/ipadPro/2.png'
+import ipadPro3 from '../images/products/ipadPro/3.png'
+import ipadPro4 from '../images/products/ipadPro/4.png'
+import ipadPro5 from '../images/products/ipadPro/5.png'
+
+import ipadAirMain from '../images/products/ipadAir/main.jpg'
+import ipadAir1 from '../images/products/ipadAir/1.png'
+import ipadAir2 from '../images/products/ipadAir/2.png'
+import ipadAir3 from '../images/products/ipadAir/3.png'
+import ipadAir4 from '../images/products/ipadAir/4.png'
+import ipadAir5 from '../images/products/ipadAir/5.png'
+
+import aw7Main from '../images/products/aw7/main.jpg'
+import aw7_1 from '../images/products/aw7/1.png'
+import aw7_2 from '../images/products/aw7/2.png'
+import aw7_3 from '../images/products/aw7/3.png'
+import aw7_4 from '../images/products/aw7/4.png'
+import aw7_5 from '../images/products/aw7/5.png'
+
+import awseMain from '../images/products/awse/main.jpg'
+import awse1 from '../images/products/awse/1.png'
+import awse2 from '../images/products/awse/2.png'
+import awse3 from '../images/products/awse/3.png'
+import awse4 from '../images/products/awse/4.png'
+import awse5 from '../images/products/awse/5.png'
+
+import airpods3Main from '../images/products/airpods3/main.jpg'
+import airpods3_1 from '../images/products/airpods3/1.jpg'
+import airpods3_2 from '../images/products/airpods3/2.jpg'
+import airpods3_3 from '../images/products/airpods3/3.jpg'
+import airpods3_4 from '../images/products/airpods3/4.jpg'
+import airpods3_5 from '../images/products/airpods3/5.jpg'
+import airpods3_6 from '../images/products/airpods3/6.jpg'
+
+import airpodsProMain from '../images/products/airpodsPro/main.jpg'
+import airpodsPro1 from '../images/products/airpodsPro/1.jpg'
+import airpodsPro2 from '../images/products/airpodsPro/2.jpg'
+import airpodsPro3 from '../images/products/airpodsPro/3.jpg'
+import airpodsPro4 from '../images/products/airpodsPro/4.jpg'
+import airpodsPro5 from '../images/products/airpodsPro/5.jpg'
+import airpodsPro6 from '../images/products/airpodsPro/6.jpg'
+
+import iphoneseCaseMain from '../images/products/iphoneseCase/main.png'
+import iphoneseCase1 from '../images/products/iphoneseCase/1.jpg'
+import iphoneseCase2 from '../images/products/iphoneseCase/2.jpg'
+import iphoneseCase3 from '../images/products/iphoneseCase/3.jpg'
+import iphoneseCase4 from '../images/products/iphoneseCase/4.jpg'
+import iphoneseCase5 from '../images/products/iphoneseCase/5.jpg'
+
+import iphone13proCaseMain from '../images/products/iphone13proCase/main.png'
+import iphone13proCase1 from '../images/products/iphone13proCase/1.jpg'
+import iphone13proCase2 from '../images/products/iphone13proCase/2.jpg'
+import iphone13proCase3 from '../images/products/iphone13proCase/3.jpg'
+import iphone13proCase4 from '../images/products/iphone13proCase/4.jpg'
+import iphone13proCase5 from '../images/products/iphone13proCase/5.jpg'
+
 const Products = {
   mac: [
     {
@@ -182,6 +263,184 @@ const Products = {
         'Ceramic Shield, tougher than any smartphone glass. And IP68 water resistance.',
         '5G for superfast downloads and high-quality streaming'
       ],
+    },
+    {
+      id: 9,
+      title: 'iPhone 13',
+      mainImg: iphone13Main,
+      allImages: [iphone13_1, iphone13_2, iphone13_3, iphone13_4, iphone13_5, iphone13_6],
+      price: 699,
+      advantages: [
+        '6.1-inch Super Retina XDR display, now 28% brighter',
+        'Our most advanced dual-camera system for incredible low-light photos and videos',
+        'A15 Bionic with 4-core GPU — faster than the competition',
+        'Ceramic Shield, tougher than any smartphone glass. And IP68 water resistance.',
+        '5G for superfast downloads and high-quality streaming'
+      ],
+    },
+    {
+      id: 10,
+      title: 'iPhone SE',
+      mainImg: iphoneseMain,
+      allImages: [iphonese1, iphonese2, iphonese3, iphonese4, iphonese5],
+      price: 429,
+      advantages: [
+        "4.7-inch Retina HD display that's bright, colorful, and sharp",
+        "A15 Bionic, the same super-powerful chip that's in iPhone 13",
+        '5G for fast downloads and high-quality streamingfootnote',
+        'Smarter camera makes automatic adjustments so faces, places, everything looks fabulous',
+        'Home button with Touch ID — securely unlock, sign in to apps, and use Apple Pay'
+      ],
+    },
+    {
+      id: 11,
+      title: 'iPhone 12',
+      mainImg: iphone12Main,
+      allImages: [iphone12_1, iphone12_2, iphone12_3, iphone12_4, iphone12_5, iphone12_6],
+      price: 699,
+      advantages: [
+        '6.1-inch Super Retina XDR display for great contrast and incredible color accuracy',
+        'Advanced dual-camera system with Night mode and Dolby Vision HDR recording',
+        'Superpowerful A14 Bionic chip',
+        'Ceramic Shield, tougher than any smartphone glass. And IP68 water resistance.',
+        '5G for superfast downloads and high-quality streaming'
+      ],
+    },
+  ],
+  ipad: [
+    {
+      id: 12,
+      title: 'iPad Pro',
+      mainImg: ipadProMain,
+      allImages: [ipadPro1, ipadPro2, ipadPro3, ipadPro4, ipadPro5],
+      price: 799,
+      advantages: [
+        'Apple M1 chip for next-level performance',
+        '11-inch Liquid Retina display with ProMotion, True Tone, and P3 wide color',
+        'Pro cameras with LiDAR Scanner, and Ultra Wide front camera with Center Stage',
+        '5G for superfast downloads and high-quality streaming',
+        'Compatible with Apple Pencil (2nd generation), Magic Keyboard, and Smart Keyboard Folio'
+      ],
+    },
+    {
+      id: 13,
+      title: 'iPad Air',
+      mainImg: ipadAirMain,
+      allImages: [ipadAir1, ipadAir2, ipadAir3, ipadAir4, ipadAir5],
+      price: 599,
+      advantages: [
+        'Apple M1 chip powers next-level performance and all-day battery life',
+        '10.9-inch Liquid Retina display delivers an immersive viewing experience',
+        '12MP Ultra Wide front camera with Center Stage for more natural video calls',
+        'Get blazing-fast 5G on cellular models and superfast Wi-Fi with Wi-Fi 6',
+        'Compatible with Apple Pencil (2nd generation), Magic Keyboard, and Smart Keyboard Folio'
+      ],
+    },
+  ],
+  watch: [
+    {
+      id: 14,
+      title: 'Apple Watch Series 7',
+      mainImg: aw7Main,
+      allImages: [aw7_1, aw7_2, aw7_3, aw7_4, aw7_5],
+      price: 399,
+      advantages: [
+        'Largest Always-On Retina display yet',
+        'Our most crack-resistant front crystal, dust resistant, and swimproof',
+        'Measure your blood oxygen with a sensor and app',
+        'Take an ECG to check for Afib — anytime, anywhere',
+        'Up to 33% faster charging than Series 6'
+      ],
+    },
+    {
+      id: 15,
+      title: 'Apple Watch SE',
+      mainImg: awseMain,
+      allImages: [awse1, awse2, awse3, awse4, awse5],
+      price: 279,
+      advantages: [
+        'Track all your favorite workouts, like swimming, running, Pilates, and Tai Chi',
+        'Check your heart rate anytime and get alerts for unusually high or low heart rates',
+        'MSend messages, make calls, and listen to music from your wrist',
+        'Get help with fall detection and Emergency SOS, even when you travel internationally',
+        'Up to 2x faster processor than Series 3'
+      ],
+    },
+  ],
+  airpods: [
+    {
+      id: 16,
+      title: 'AirPods (3rd generation)',
+      mainImg: airpods3Main,
+      allImages: [airpods3_1, airpods3_2, airpods3_3, airpods3_4, airpods3_5, airpods3_6],
+      price: 179,
+      advantages: [],
+    },
+    {
+      id: 17,
+      title: 'AirPods Pro',
+      mainImg: airpodsProMain,
+      allImages: [airpodsPro1, airpodsPro2, airpodsPro3, airpodsPro4, airpodsPro5, airpodsPro6],
+      price: 249,
+      advantages: [],
+    },
+  ],
+  accessories: [
+    {
+      id: 18,
+      title: 'iPhone SE Sillicone Case',
+      mainImg: iphoneseCaseMain,
+      allImages: [iphoneseCase1, iphoneseCase2, iphoneseCase3, iphoneseCase4, iphoneseCase5],
+      price: 35,
+      advantages: [],
+    },
+    {
+      id: 19,
+      title: 'iPhone SE Sillicone Case',
+      mainImg: iphone13proCaseMain,
+      allImages: [iphone13proCase1, iphone13proCase2, iphone13proCase3, iphone13proCase4, iphone13proCase5],
+      price: 49,
+      advantages: [],
+    },
+    {
+      id: 7,
+      title: 'Studio Display',
+      mainImg: studioDisplayMain,
+      allImages: [
+        studioDisplay1,
+        studioDisplay2,
+        studioDisplay3,
+        studioDisplay4,
+        studioDisplay5,
+        studioDisplay6,
+        studioDisplay7,
+        studioDisplay8,
+        studioDisplay9
+      ],
+      price: 1599,
+      advantages: [
+        '27-inch 5K Retina display draws you in with 14.7 million pixels and one billion colors',
+        '12MP Ultra Wide camera with Center Stage — powered by Apple silicon — allows for more engaging video calls',
+        'Three studio-quality mics and six-speaker sound system with Spatial Audio for more immersive calls, movies, and music',
+        'With ports for connectivity and charging and three stand options, it fits any setup',
+        'Pairs perfectly with any Mac, including the all-new Mac Studio. Add new matching Magic accessories to complete your studio.'
+      ],
+    },
+    {
+      id: 16,
+      title: 'AirPods (3rd generation)',
+      mainImg: airpods3Main,
+      allImages: [airpods3_1, airpods3_2, airpods3_3, airpods3_4, airpods3_5, airpods3_6],
+      price: 179,
+      advantages: [],
+    },
+    {
+      id: 17,
+      title: 'AirPods Pro',
+      mainImg: airpodsProMain,
+      allImages: [airpodsPro1, airpodsPro2, airpodsPro3, airpodsPro4, airpodsPro5, airpodsPro6],
+      price: 249,
+      advantages: [],
     },
   ]
 };

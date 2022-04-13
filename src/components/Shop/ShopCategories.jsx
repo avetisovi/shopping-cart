@@ -12,10 +12,10 @@ const ShopCategories = ({ setProdctsFilterMethod }) => {
   const [categories] = useState([
     { title: 'Mac', img: categoryMac, filter: 'mac', active: '' },
     { title: 'iPhone', img: categoryIphone, filter: 'iphone', active: '' },
-    { title: 'iPad', img: categoryIpad, filter: '', active: '' },
-    { title: 'Apple Watch', img: categoryWatch, filter: '', active: '' },
-    { title: 'AirPods', img: categoryAirPods, filter: '', active: '' },
-    { title: 'Accessories', img: categoryAccessories, filter: '', active: '' },
+    { title: 'iPad', img: categoryIpad, filter: 'ipad', active: '' },
+    { title: 'Apple Watch', img: categoryWatch, filter: 'watch', active: '' },
+    { title: 'AirPods', img: categoryAirPods, filter: 'airpods', active: '' },
+    { title: 'Accessories', img: categoryAccessories, filter: 'accessories', active: '' },
   ])
 
 
