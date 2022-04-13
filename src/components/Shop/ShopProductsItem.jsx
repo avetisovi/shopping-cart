@@ -1,5 +1,5 @@
 import React from 'react'
-import BuyBtn from './UI/BuyBtn'
+import BuyBtn from '../UI/BuyBtn'
 
 
 const ShopProductsItem = ({ setActiveProduct, setModal, product }) => {
@@ -15,7 +15,7 @@ const ShopProductsItem = ({ setActiveProduct, setModal, product }) => {
       <img className='shop__product-img' src={product.mainImg} alt={product.title} />
       <div className="shop__product-footer">
         <span className="shop__product-price">${product.price}</span>
-        <BuyBtn />
+        <BuyBtn productId={product.id}/>
       </div>
     </div>
   )

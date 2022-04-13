@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import ShopProductsItem from './ShopProductsItem'
-import ProductModal from '../components/UI/ProductModal'
+import ProductModal from '../UI/ProductModal'
 
 const ShopProducts = ({filteredProducts}) => {
   const [activeProduct, setActiveProduct] = useState({});

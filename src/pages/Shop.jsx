@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react'
 import { ProductsContext } from '../context'
-import ShopCategories from '../components/ShopCategories'
-import ShopProducts from '../components/ShopProducts'
+import ShopCategories from '../components/Shop/ShopCategories'
+import ShopProducts from '../components/Shop/ShopProducts'
 
 const Shop = () => {
 

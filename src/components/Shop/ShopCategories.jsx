@@ -1,12 +1,12 @@
 import React, {useState} from 'react'
 import uniqid from 'uniqid'
 
-import categoryMac from '../images/categories/mac.png'
-import categoryIphone from '../images/categories/iphone.png'
-import categoryIpad from '../images/categories/ipad.png'
-import categoryWatch from '../images/categories/watch.png'
-import categoryAirPods from '../images/categories/airpods.png'
-import categoryAccessories from '../images/categories/accessories.png'
+import categoryMac from '../../images/categories/mac.png'
+import categoryIphone from '../../images/categories/iphone.png'
+import categoryIpad from '../../images/categories/ipad.png'
+import categoryWatch from '../../images/categories/watch.png'
+import categoryAirPods from '../../images/categories/airpods.png'
+import categoryAccessories from '../../images/categories/accessories.png'
 
 const ShopCategories = ({ setProdctsFilterMethod }) => {
   const [categories] = useState([

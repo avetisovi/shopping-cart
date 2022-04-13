@@ -27,7 +27,7 @@ const ProductModal = ({ product, modal, setModal }) => {
             <h3 className="product__modal-title">{product.title}</h3>
             <div className="product__modal-subtitle">
             <p className="product__modal-price">${product.price}</p>
-            <BuyBtn />
+            <BuyBtn productId={product.id}/>
             </div>
             <ul className="product__modal-advantages">
               {product.advantages.map(adv => <li key={uniqid()} className='product__modal-advantage'>{adv}</li>)}

@@ -1,8 +1,13 @@
-import React from 'react'
+import React, {useContext} from 'react'
+import { CartContext } from '../../context'
 
-const BuyBtn = () => {
+const BuyBtn = ({productId}) => {
+  const {addToCart} = useContext(CartContext)
   return (
-    <button className='buy__btn'>Buy</button>
+    <button onClick={e => {
+      e.stopPropagation();
+      addToCart(productId);
+    }} className='buy__btn'>Buy</button>
   )
 }
 
