@@ -1,6 +1,11 @@
 .navigation {
   background-color: #313132;
   color: $regularGray;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
   &__inner {
     display: flex;
     gap: 100px;
