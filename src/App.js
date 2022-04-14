@@ -1,6 +1,6 @@
 import './styles/index.scss'
 import { useState } from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Shop from './pages/Shop';
 import Navbar from './components/UI/Navbar';
@@ -47,7 +47,7 @@ function App() {
   return (
     <ProductsContext.Provider value={{ products, setProducts }}>
       <CartContext.Provider value={{cart, setCart, removeFromCart, addToCart}}>
-        <BrowserRouter>
+        <HashRouter>
           <Navbar setCartActive={setCartActive}/>
           <Cart cartActive={cartActive} setCartActive={setCartActive}/>
           <Routes>
@@ -55,7 +55,7 @@ function App() {
             <Route path='/shop' element={<Shop />} />
             <Route path='/*' element={<Error />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </CartContext.Provider>
     </ProductsContext.Provider>
   );
