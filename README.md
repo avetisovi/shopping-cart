@@ -1,5 +1,6 @@
-# Shopping cart simulation
+# Shopping Cart
 
-ToDo:
+[Live Demo](https://tolikatolika123.github.io/shopping-cart/#/shop)
 
-* Add responsive design
+Shopping cart simulation.\
+Design inspiration was taken from [apple.com](https://www.apple.com/)
